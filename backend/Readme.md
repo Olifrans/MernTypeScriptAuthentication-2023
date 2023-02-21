@@ -43,3 +43,34 @@ npm i -D ts-node
 # Executar
  npx nodemon src/server.ts
 
+# Lib ESlint
+npm i -D eslint
+
+# Configuração do Eslinte
+npx  eslint --init
+yes
+To check syntax and find problems
+Java script module import e export
+None of these
+Use typescrip -> yes
+node
+JavaScript
+yes
+npm
+
+
+# no arquivo .eslintrc.js
+comente browser": true e adcione node": true
+
+"env": {
+        //"browser": true,
+        "node": true,
+        "es2021": true
+    },
+
+# eslint . --ext .ts
+npx eslint . --ext .ts
+
+"lint": "eslint . --ext .ts"
+
+npm run lint
