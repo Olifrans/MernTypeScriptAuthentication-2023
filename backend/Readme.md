@@ -26,7 +26,20 @@ npm i --save-dev @types/express
 npx tsc
 
 # Resultado
-$ node server.js
+node server.js
 Servidor rodando na porta: 5000
 
+
+# Criado a pasta src e movido o server.ts para dentro
+No arquivo tsconfig.json alterar configuração "outDir": "./", passando o dist
+Em seguida rodar o comando npx tsc
+
+# Lib Nodemon
+npm i --save-dev nodemon
+
+# Lib Nodemon typescript
+npm i -D ts-node
+
+# Executar
+ npx nodemon src/server.ts
 
