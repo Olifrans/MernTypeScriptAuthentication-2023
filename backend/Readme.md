@@ -85,3 +85,6 @@ npm i dotenv
 
 # Mongoose é uma ferramenta de modelagem de objetos do MongoDB projetada para funcionar em um ambiente assíncrono.
 npm i mongoose
+
+# dotenv para configura o envalid
+npm i envalid
