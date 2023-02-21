@@ -74,3 +74,14 @@ npx eslint . --ext .ts
 "lint": "eslint . --ext .ts"
 
 npm run lint
+
+
+#  Base de dados MongoDB
+FRANCISCO'S ORG - 2019-10-30 > MERNTYPESCRIPTMONGOD_B2023
+
+
+# dotenv para configura o .env
+npm i dotenv
+
+# Mongoose é uma ferramenta de modelagem de objetos do MongoDB projetada para funcionar em um ambiente assíncrono.
+npm i mongoose
